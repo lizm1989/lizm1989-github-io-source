@@ -167,6 +167,14 @@ ls --full-time 查看列表详细时间
 	>nmap -v -A x.x.x.x -p  1-65535 扫描所有端口
 
 
-###
+###     文件及目录管理
+    >find ./ | wc -l  查看当前目录下文件个数
+    >cp -r source_dir dest_dir 目录复制
+    
+###      
+    >lsof -i:3306  查看端口占用的进程状态
+    >
+    
+    
 
 	
