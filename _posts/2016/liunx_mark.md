@@ -49,6 +49,12 @@ $find /wwwroot/mantis -name '*.php' |xargs  grep "include"
 
 $find / -type f -name "*.log" | xargs grep "PrinterBolt"
 
+
+$grep -5 "top" aa.txt 打印匹配行的前后5行
+
+$grep -A 5 "top" aa.txt //打印匹配行的后5行
+ 
+$grep -B 5 "top" aa.txt //打印匹配行的前5行
 </pre>
 
 	
