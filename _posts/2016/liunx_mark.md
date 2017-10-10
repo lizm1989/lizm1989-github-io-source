@@ -183,6 +183,8 @@ ls --full-time 查看列表详细时间
     >lsof -i:3306  查看端口占用的进程状态
     >
     
-    
+###  history 中显示时间戳    
+    >环境变量加入：export HISTTIMEFORMAT="%F %T `whoami` "
+    >
 
 	
